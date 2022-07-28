@@ -1,0 +1,17 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 16px;
+    gap: 12px;
+    color: #888888;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input:nth-of-type(2n) {
+    margin-left: 5px;
+}
